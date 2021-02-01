@@ -1,0 +1,88 @@
+ *{
+     box-sizing: border-box;
+ }
+
+ :root{
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+ }
+
+ body{
+     background-image: url(img/MaterialeEsercizioLim/background.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     margin-bottom: 100px;
+ }
+
+ #container{
+     background-color: rgba(0, 0, 0,0.5);
+     border-radius: 20px;
+     margin: 20px auto;
+     width: 80%;
+     padding: 50px;
+ }
+
+header{
+    text-align: center;
+    color: #00DD00;
+}
+
+#logo{
+    width: 200px;
+}
+
+nav{
+    background-color: #00DD00;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button{
+    border: none;
+}
+
+.button:hover{
+    background-color: grey;
+}
+
+.charge::after{
+    content: "";
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+
+}
+
+#label1 .charge::after{
+    background-color:orange;
+    width: 50%;
+}
+
+#label2 .charge::after{
+    background-color: green;
+    width: 100%;
+}
+
+#label3 .charge::after{
+    background-color: red;
+    width: 20%;
+}
+
+#form_option label p:first-child{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#form_option label p{
+    margin: 5px;
+}
+
+#form_option label:hover{
+    cursor: pointer;
+}
